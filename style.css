@@ -1,0 +1,167 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+/* Header **/
+header{
+  background: #013144;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #ff9b05 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+
+}
+
+header li{
+  float:left;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float: left;
+  margin-top: 15px;
+
+}
+
+header .highlight, header .current a{
+  color:#ff9b05;
+  font-weight:bold;
+
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+
+}
+
+/* Showcase */
+#showcase{
+  min-height: 400px;
+  background:url('showcase.jpg') no-repeat 0 -100px;
+  text-align:center;
+  font-weight:bold;
+  text-shadow: 2px 2px black;
+  color:#f59300;
+}
+#showcase h1{
+  margin-top: 100px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+#showcase p{
+  font-size: 25px;
+}
+
+/* EXPERIENCIA */
+#experiencia{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+
+#experiencia h1{
+  float:left;
+}
+
+#experiencia img{
+    width: 50px;
+    right: 100px;
+    float: right;
+    padding: 10px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:20%;
+  padding:98px;
+}
+
+#boxes .box img{
+  width:200px;
+}
+
+/* Boxes 2 */
+
+#boxes{
+    margin-top:20px;
+  }
+#boxes2 .box2{
+    
+    float: right;
+    padding: 10px;
+    
+}
+#boxes2 .box2 img{
+    width: 30px;
+    
+}
+
+
+/* COLUNA PRINCIPAL */
+article#colunaprincipal{
+  float:left;
+  width:65%;
+}
+
+/* CURRICULO */
+ul#curriculo li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#013144;
+  text-align: center;
+}
+
